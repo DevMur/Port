@@ -134,3 +134,6 @@ $(window).load(function() {
 
 });
 
+//Thread/card expander formula
+
+
