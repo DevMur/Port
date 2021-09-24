@@ -1,0 +1,50 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#26262c;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:840px;
+  height:1650px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding: 10px 10px 10px 10px;
+  background-color:#ffffff;
+  font-size: 25pt;
+}
+
+#boxes button {
+  padding: 15px 100px;
+  margin: 10px 4px;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+#boxes button {
+  border: 10px solid transparent;
+  background-color: aqua;
+  -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+#boxes button:hover {
+  border-left: 40px solid #000000;
+  border-right: 40px solid #000000;
+  color: #000000;
+}
