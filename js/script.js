@@ -93,6 +93,11 @@ $(window).load(function() {
 		}
 	});
 
+	$('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: false
+	});
+
 	$('#servicesSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
