@@ -150,7 +150,7 @@ html,button,input,select,textarea {
 	font-family:'Varela Round',sans-serif;
 }
 body {
-	margin:0;
+	margin:auto;
 	font-family: 'Open Sans',sans-serif;
 }
 /* ==========================================================================Links========================================================================== */
@@ -272,7 +272,9 @@ figure {
 }
 /* ==========================================================================Forms========================================================================== */
 form {
-	margin:0;
+	float: left;
+	
+	margin: 50px;
 }
 fieldset {
 	border:1px solid #c0c0c0;
@@ -1769,12 +1771,5 @@ img {
 Results: Change id name and add a border to a game
 
 */
-body .container #new {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	color: #f700ff;
-	background: #2196f3;
-  }
+
   
