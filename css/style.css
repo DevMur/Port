@@ -441,12 +441,12 @@ table {
 .icon-list {
 	float:right;
 	padding:2.5em 2em 0 6em;
+	margin-right: 33%;
 }
 .icon-list a {
 	opacity:0;
 	display:inline-block;
 	padding:0 0.2em;
-	margin:0 15px;
 	text-align:center;
 	font-size:1.2em;
 	color: #353535;
@@ -467,7 +467,7 @@ table {
 	transform:translate3d(0,125px,0);
 }
 .show-menu .menu-wrap {
-	width:100%;
+	width:85%;
 	height:125px;
 	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);
@@ -499,7 +499,9 @@ table {
 .show-menu .icon-list a:nth-child(6) {
 	-webkit-transition-delay:0.5s;
 	transition-delay: 0.5s;
-}
+} /* so those child icons are delayed and I dont really care about that. It's a race, either I master formmatting
+or
+It grows too big to maintain. Neither is bad, transitions will stay, maybe add a rainbow type wave animation???
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/copper_portrait.jpg') right bottom no-repeat;
@@ -1760,3 +1762,19 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+
+
+/* testing embedding
+
+Results: Change id name and add a border to a game
+
+*/
+body .container #new {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #f700ff;
+	background: #2196f3;
+  }
+  
