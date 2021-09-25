@@ -1764,4 +1764,17 @@ img {
 }
 
 
-/* testing embedding*/
+/* testing embedding
+
+Results: Change id name and add a border to a game
+
+*/
+body .container #new {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #f700ff;
+	background: #2196f3;
+  }
+  
