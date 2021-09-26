@@ -43,9 +43,9 @@
             <div class="icon-list">
               <a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
               <a href="index.html#about"><i class="fa fa-fw fa-globe"></i><span>Stuff I like(d)</span></a>
-              <a href="index.html#service"></span><i class="fa fa-fw fa-quote-left"></i><span>Portfolio</a>
-              <a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>futures</span></a>
-              <a href="book.html"><i class="fa fa-fw fa-envelope-o"></i><span>Communicate</span></a>
+              <a href="index.html#portfolio"></span><i class="fa fa-fw fa-quote-left"></i><span>Portfolio</a>
+              <a href="index.html#futures"><i class="fa fa-fw fa-rss"></i><span>futures</span></a>
+              <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Communicate</span></a>
             </div>
           </nav>
 			    </div><!--/menu wrap-->
@@ -68,7 +68,7 @@
                     D<span style="color:rgb(0, 140, 165);">e</span>vin<br/>
                     <span style="color:#327561" >Mur<span style="color:#FFE800">ray</span></span>
                   </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span style="color:#550034" class="rotate">Activity,Technology,Space-cowboy</span></h3><!-- Text Rotator -->
+                  <h3 class="animated fadeInUp delay-05s"><span style="color:#550034" class="rotate">Activity,Technology,Fantasy</span></h3><!-- Text Rotator -->
                 </div>
               </div>
 			  <!-- Learn More Button -->
@@ -165,7 +165,7 @@
       <!-- ==========================
         ABOUT SECTION  
         =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
+        <section class="intro text-center section-padding color-bg" id="music">
           <div class="container">
 		    <!-- WELCOME TEXT -->
             <div class="row">
@@ -204,7 +204,7 @@
         <!-- ==========================
         ABOUT SECTION  
         =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
+        <section class="intro text-center section-padding color-bg" id="portfolio">
           <div class="container">
 		    <!-- WELCOME TEXT -->
             <div class="row">
@@ -367,7 +367,7 @@
 			</div>
 			<!-- About 2 -->
 			<div class="row">
-				<div class="col-md-6 about-text">
+				<div class="col-md-6 about-text" id="futures">
 					<h6>PROJECTS</h6><!-- Headline -->
 					<p>
             Receipts, Titles, Tickets, and internet rights recorded on both public and private blockchains
@@ -507,36 +507,6 @@
 	<script src="js/script.js"></script>
 
 	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
