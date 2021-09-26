@@ -150,7 +150,7 @@ html,button,input,select,textarea {
 	font-family:'Varela Round',sans-serif;
 }
 body {
-	margin:0;
+	margin:auto;
 	font-family: 'Open Sans',sans-serif;
 }
 /* ==========================================================================Links========================================================================== */
@@ -272,7 +272,9 @@ figure {
 }
 /* ==========================================================================Forms========================================================================== */
 form {
-	margin:0;
+	float: left;
+	
+	margin: 50px;
 }
 fieldset {
 	border:1px solid #c0c0c0;
@@ -657,6 +659,7 @@ h1.arrow span {
 	width: 790px;
 	margin: 0 auto;
 	box-shadow: none;
+	height: 790px;
 }
 
 .flexslider li {
@@ -676,7 +679,7 @@ h1.arrow span {
 }
 
 .flexslider li h1 {
-	background: rgba(51, 51, 51, 0.5);
+	background: rgba(253, 253, 253, 0.5);
 	padding: 12px 18px 12px;
 	margin-bottom: 0;
 	font-size: 1.8em;
@@ -684,7 +687,7 @@ h1.arrow span {
 }
 
 .flexslider li h2 {
-	background: rgba(51, 51, 51, 0.5);
+	background: rgba(255, 255, 255, 0.5);
 	padding: 13px 18px 11px;
 	font-size: 1.1em;
 	margin-bottom: 0;
@@ -880,7 +883,7 @@ line-height: 27px;
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #00ff80;
+    color: rgb(0, 140, 165);
 }
 .color-bg h1.arrow {
     color: rgb(0, 0, 0);
@@ -1769,12 +1772,5 @@ img {
 Results: Change id name and add a border to a game
 
 */
-body .container #new {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	color: #f700ff;
-	background: #2196f3;
-  }
+
   
