@@ -657,9 +657,15 @@ h1.arrow span {
 
 .flexslider {
 	width: 790px;
+	box-shadow: none;
+	height: fit-content;
+}
+
+.flexslider img {
+	width: 770px;
 	margin: 0 auto;
 	box-shadow: none;
-	height: 790px;
+	
 }
 
 .flexslider li {
@@ -670,7 +676,6 @@ h1.arrow span {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
-	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -1767,10 +1772,62 @@ img {
 }
 
 
-/* testing embedding
+/* 
 
-Results: Change id name and add a border to a game
+This is the fancy button for the video game
+change the colors to match the style and maybe make it a rectangle
+use it anywhere
 
 */
 
+  .btnw {
+	  margin-top: calc(50% + 25px);
+	  position: relative;
+	  display: inline-block;
+	  width: 277px;
+	  height: 50px;
+	  font-size: 1em;
+	  font-weight: bold;
+	  line-height: 60px;
+	  text-align: center;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  cursor: pointer;
+	  text-decoration:none;
+	  font-family: 'Roboto', sans-serif;
+	  font-weight:900;
+	  font-size:17px;
+	  letter-spacing: 0.045em;
+  }
   
+  .btnw svg {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+  }
+  
+  .btnw svg rect {
+	  stroke: #EC0033;
+	  stroke-width: 4;
+	  stroke-dasharray: 353, 0;
+	  stroke-dashoffset: 0;
+	  -webkit-transition: all 600ms ease;
+	  transition: all 600ms ease;
+  }
+  
+  .btnw span{
+	background: rgb(255,130,130);
+	background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+	background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+	
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  .btnw:hover svg rect {
+	  stroke-width: 4;
+	  stroke-dasharray: 196, 543;
+	  stroke-dashoffset: 437;
+  }
